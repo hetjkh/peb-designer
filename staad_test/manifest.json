@@ -1,0 +1,32 @@
+{
+  "source": "PEB Designer default sidebar input, STAAD.Pro CONNECT Edition",
+  "geometry": {
+    "width_m": 40,
+    "length_m": 60,
+    "eave_m": 6.5,
+    "roof_slope_x_to_10": 1,
+    "bay_spacing_m": 7.5
+  },
+  "models": [
+    {
+      "file": "PEB_CONNECT_2D_v2.std",
+      "kind": "STAAD PLANE",
+      "joints": 39,
+      "members": 38,
+      "primary_load_cases": 3,
+      "load_combinations": 11,
+      "internal_analysis": "ok",
+      "note": "Bentley STAAD.Pro import and analysis still to be checked"
+    },
+    {
+      "file": "PEB_CONNECT_3D_v2.std",
+      "kind": "STAAD SPACE",
+      "joints": 351,
+      "members": 638,
+      "primary_load_cases": 3,
+      "load_combinations": 11,
+      "internal_analysis": "ok",
+      "note": "Bentley STAAD.Pro import and analysis still to be checked"
+    }
+  ]
+}

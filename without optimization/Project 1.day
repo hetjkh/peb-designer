@@ -1,0 +1,777 @@
+                          PROGRAM: STAAD.Pro
+                          VERSION: 22.00.00.15     
+                 8:52: 3:91  ENTERING STAAD                                    
+                 8:52: 3:94  USING 64 BIT STAAD ENGINE                         
+                 8:52: 3:94  ENTERING MAINN                                    
+                 8:52: 3:94  START JOB INFORMATION                             
+                 8:52: 3:95  INPUT WIDTH 79                                    
+                 8:52: 3:95  UNIT METER KN                                     
+                 8:52: 3:96  JOINT COORDINATES                                 
+                 8:52: 3:97  ENTERING JOINTC                                   
+                 8:52: 3:97  JOINTC NEWJ                                 400000
+                 8:52: 3:99  MAX NODE NO.                                   169
+                 8:52: 3:99  MEMBER INCIDENCES                                 
+                 8:52: 4: 0  DEFINE MATERIAL START                             
+                 8:52: 4: 1  MEMBER PROPERTY AMERI                             
+                 8:52: 4:11    ++ Finished Reading Member Properties ...       
+                 8:52: 4:11  MEMBER PROPERTY TATAS                             
+                 8:52: 4:18    ++ Finished Reading Member Properties ...       
+                 8:52: 4:18  MEMBER PROPERTY COLDF                             
+                 8:52: 4:21    ++ Finished Reading Member Properties ...       
+                 8:52: 4:21  CONSTANTS                                         
+                 8:52: 4:21  MEMBER TENSION                                    
+                 8:52: 4:22  MEMBER RELEASE                                    
+                 8:52: 4:22  SUPPORTS                                          
+                 8:52: 4:23  ENTERING SUPPORT                                  
+                 8:52: 4:24  DEFINE 1893 LOAD                                  
+                 8:52: 4:24  DUPLICATE ELEMENT CHECK                           
+                 8:52: 4:26  CHECKING STRUCTURAL INTEGRITY                     
+                 8:52: 4:26  CHECK UNCONNECTED JOINTS AND                      
+                 8:52: 4:26  CALCULATE MAX JOINT CONNECTIVITY                  
+                 8:52: 4:27  CHECK MULTIPLE STRUCTURES                         
+                 8:52: 4:28  MINIMIZING MATRIX BANDWIDTH                       
+                 8:52: 4:29  ENTERING RENMBR2                                  
+                 8:52: 4:29  MINMAX=                                        140
+                 8:52: 4:30  INTERCHANGES                                     5
+                 8:52: 4:30  MAXGBND=                                        20
+                 8:52: 4:30  MAXDIFF=                                        20
+                 8:52: 4:32  MINMAX =                                        19
+                 8:52: 4:33  MAXIMUM E =                           2.973273E+04
+                 8:52: 4:33  MINIMUM E =                           2.973273E+04
+                 8:52: 4:35  LOAD 1 LOADTYPE SEISM                             
+                 8:52: 4:35  ENTERING SUPPORT                                  
+                 8:52: 4:36  NRJOLD                                           0
+                 8:52: 4:36  SUPPORT NOLD                                     0
+                 8:52: 4:36  SUPPORT N                                      870
+                 8:52: 4:36  BEFORE LOADPR                                     
+                 8:52: 4:38  REOPEN AS DIR                                    0
+                 8:52: 4:39  ENTER LOADPR                                      
+                 8:52: 4:40  PERFORM ANALYSIS                                  
+                 8:52: 4:40  pdel iter                                        0
+                 8:52: 4:41  MBW DOF BAND=                                  105
+                 8:52: 4:41  NUMBER OF PRIMARY CASES                          1
+                 8:52: 4:42  NUMBER OF CASES                                 33
+                 8:52: 4:43  #OF CASES W/ELEM INMEMORY                       33
+                 8:52: 4:43  MEMORY FOR MEMBER LOADS                     118008
+                 8:52: 4:44  MEMORY FOR DISPLACEMENTS                     32472
+                 8:52: 4:45  Using 64-bit analysis engine                      
+                 8:52: 4:46  BEFORE SOLVER 1                                   
+                 8:52: 4:47  Start Input for Next Load Case                    
+                 8:52: 4:48  case no=    1 seq. no=   1 idynl= 0               
+                 8:52: 4:48  MASSSET                                          0
+                 8:52: 4:48  LOADEND ISLAVE                                   0
+                 8:52: 4:49  NVPREV                                           0
+                 8:52: 4:50  AMAXNON                               2.368766E+01
+                 8:52: 4:51  IRECSIZL=                                     4000
+                 8:52: 4:51  MTX BLOCKSIZE=                               91350
+                 8:52: 4:52  MI=                                            870
+                 8:52: 4:53  NORECL=                                         23
+                 8:52: 4:53  NORECL1=                                         1
+                 8:52: 4:54  IWORD=                                       32000
+                 8:52: 4:54  JRECSIZE=                                     4000
+                 8:52: 4:55  IWORDJ=                                      32000
+                 8:52: 4:56  IBYTE=                                           4
+                 8:52: 4:57  JOINTS=                                        164
+                 8:52: 4:57  MEMBERS=                                       298
+                 8:52: 4:58  PLATES =                                         0
+                 8:52: 4:59  SOLIDS =                                         0
+                 8:52: 4:59  NO. OF EQUATIONS=                              870
+                 8:52: 4:60  idyn=                                            0
+                 8:52: 4:61  ipd=                                             0
+                 8:52: 4:62  icablanl=                                        0
+                 8:52: 4:62  ++ Processing Element Stiffness Matrix.           
+                 8:52: 4:64  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 4:64  NV1                                             -1
+                 8:52: 4:65  ++ Processing Global Stiffness Matrix.            
+                 8:52: 4:65  MBAND                                          105
+                 8:52: 4:66  NBLOCK                                           1
+                 8:52: 4:67  NEQB                                           870
+                 8:52: 4:67  NBLK                                             1
+                 8:52: 4:69    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 4:70  ++ Processing Triangular Factorization-2.         
+                 8:52: 4:70  NBLK                                             1
+                 8:52: 4:71  NBLOCK=                                          1
+                 8:52: 4:71    ++ Finished Triangular Factorization.           
+                 8:52: 4:73  ++ Calculating Joint Displacement.                
+                 8:52: 4:73  FORWARD SUBSTITUTE                                
+                 8:52: 4:73  BACK SUBSTITUTE                                   
+                 8:52: 4:75  UBCFRQ                                            
+                 8:52: 4:75  ULODUNIT                                        60
+                 8:52: 4:76  Rayleigh freq =                      -7.560530E+07
+                 8:52: 4:77  FORWARD SUBSTITUTE                                
+                 8:52: 4:77  BACK SUBSTITUTE                                   
+                 8:52: 4:78  END REDLD                                         
+                 8:52: 4:79    ++ Finished Joint Displacement Calculation.     
+                 8:52: 4:80  ++ Processing Element Stiffness Matrix.           
+                 8:52: 4:81  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 4:81  NV1                                             -1
+                 8:52: 4:81  ++ Processing Global Stiffness Matrix.            
+                 8:52: 4:82  MBAND                                          105
+                 8:52: 4:83  NBLOCK                                           1
+                 8:52: 4:84  NEQB                                           870
+                 8:52: 4:84  NBLK                                             1
+                 8:52: 4:86    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 4:87  ++ Processing Triangular Factorization-2.         
+                 8:52: 4:87  NBLK                                             1
+                 8:52: 4:88  NBLOCK=                                          1
+                 8:52: 4:88    ++ Finished Triangular Factorization.           
+                 8:52: 4:90  ++ Calculating Joint Displacement.                
+                 8:52: 4:90  FORWARD SUBSTITUTE                                
+                 8:52: 4:91  BACK SUBSTITUTE                                   
+                 8:52: 4:92  END REDLD                                         
+                 8:52: 4:92    ++ Finished Joint Displacement Calculation.     
+                 8:52: 4:93  ++ Processing Element Stiffness Matrix.           
+                 8:52: 4:95  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 4:95  NV1                                             -1
+                 8:52: 4:95  ++ Processing Global Stiffness Matrix.            
+                 8:52: 4:96  MBAND                                          105
+                 8:52: 4:96  NBLOCK                                           1
+                 8:52: 4:97  NEQB                                           870
+                 8:52: 4:98  NBLK                                             1
+                 8:52: 4:99    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 5: 0  ++ Processing Triangular Factorization-2.         
+                 8:52: 5: 0  NBLK                                             1
+                 8:52: 5: 1  NBLOCK=                                          1
+                 8:52: 5: 1    ++ Finished Triangular Factorization.           
+                 8:52: 5: 3  ++ Calculating Joint Displacement.                
+                 8:52: 5: 3  FORWARD SUBSTITUTE                                
+                 8:52: 5: 4  BACK SUBSTITUTE                                   
+                 8:52: 5: 5  END REDLD                                         
+                 8:52: 5: 6    ++ Finished Joint Displacement Calculation.     
+                 8:52: 5: 7  ++ Processing Element Stiffness Matrix.           
+                 8:52: 5: 8  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 5: 8  NV1                                             -1
+                 8:52: 5: 9  ++ Processing Global Stiffness Matrix.            
+                 8:52: 5: 9  MBAND                                          105
+                 8:52: 5:10  NBLOCK                                           1
+                 8:52: 5:11  NEQB                                           870
+                 8:52: 5:11  NBLK                                             1
+                 8:52: 5:12    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 5:14  ++ Processing Triangular Factorization-2.         
+                 8:52: 5:14  NBLK                                             1
+                 8:52: 5:15  NBLOCK=                                          1
+                 8:52: 5:16    ++ Finished Triangular Factorization.           
+                 8:52: 5:17  ++ Calculating Joint Displacement.                
+                 8:52: 5:17  FORWARD SUBSTITUTE                                
+                 8:52: 5:18  BACK SUBSTITUTE                                   
+                 8:52: 5:19  END REDLD                                         
+                 8:52: 5:19    ++ Finished Joint Displacement Calculation.     
+                 8:52: 5:21  ++ Calculating Element Forces & Reactions.        
+                 8:52: 5:22    CHANGE INTERNAL COMMAND PROCESSED               
+                 8:52: 5:22  COMBINATION CASES=                               0
+                 8:52: 5:23  MAX CM MEMORY (KILOWORDS)                      181
+                 8:52: 5:24  AFTER SOLVER 1                                    
+                 8:52: 5:25  REOPEN AS SEQ                                    0
+                 8:52: 5:25  CHANGE                                            
+                 8:52: 5:25    CHANGE COMMAND PROCESSED                        
+                 8:52: 5:27  LOAD 2 LOADTYPE SEISM                             
+                 8:52: 5:27  BEFORE LOADPR                                     
+                 8:52: 5:28  REOPEN AS DIR                                    0
+                 8:52: 5:28  ENTER LOADPR                                      
+                 8:52: 5:29  PERFORM ANALYSIS                                  
+                 8:52: 5:30  pdel iter                                        0
+                 8:52: 5:30  BEFORE SOLVER 1                                   
+                 8:52: 5:32  Start Input for Next Load Case                    
+                 8:52: 5:32  IJL CASE                                         2
+                 8:52: 5:33  LINE NO                                        643
+                 8:52: 5:33  case no=    2 seq. no=   2 idynl= 0               
+                 8:52: 5:34  LOADEND ISLAVE                                   0
+                 8:52: 5:35  NVPREV                                           1
+                 8:52: 5:36  AMAXNON                               2.368766E+01
+                 8:52: 5:36  IRECSIZL=                                     4000
+                 8:52: 5:37  MTX BLOCKSIZE=                               91350
+                 8:52: 5:38  MI=                                            870
+                 8:52: 5:38  NORECL=                                         23
+                 8:52: 5:39  NORECL1=                                         1
+                 8:52: 5:40  IWORD=                                       32000
+                 8:52: 5:41  JRECSIZE=                                     4000
+                 8:52: 5:41  IWORDJ=                                      32000
+                 8:52: 5:41  IBYTE=                                           4
+                 8:52: 5:42  JOINTS=                                        164
+                 8:52: 5:43  MEMBERS=                                       298
+                 8:52: 5:44  PLATES =                                         0
+                 8:52: 5:44  SOLIDS =                                         0
+                 8:52: 5:45  NO. OF EQUATIONS=                              870
+                 8:52: 5:45  idyn=                                            0
+                 8:52: 5:47  ipd=                                             0
+                 8:52: 5:47  icablanl=                                        0
+                 8:52: 5:48  ++ Processing Element Stiffness Matrix.           
+                 8:52: 5:50  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 5:50  NV1                                             -2
+                 8:52: 5:51  ++ Processing Global Stiffness Matrix.            
+                 8:52: 5:51  MBAND                                          105
+                 8:52: 5:52  NBLOCK                                           1
+                 8:52: 5:53  NEQB                                           870
+                 8:52: 5:53  NBLK                                             1
+                 8:52: 5:55    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 5:55  ++ Processing Triangular Factorization-2.         
+                 8:52: 5:56  NBLK                                             1
+                 8:52: 5:56  NBLOCK=                                          1
+                 8:52: 5:57    ++ Finished Triangular Factorization.           
+                 8:52: 5:59  ++ Calculating Joint Displacement.                
+                 8:52: 5:59  FORWARD SUBSTITUTE                                
+                 8:52: 5:60  BACK SUBSTITUTE                                   
+                 8:52: 5:60  UBCFRQ                                            
+                 8:52: 5:61  Rayleigh freq =                       1.620916E-11
+                 8:52: 5:62  FORWARD SUBSTITUTE                                
+                 8:52: 5:63  BACK SUBSTITUTE                                   
+                 8:52: 5:63  END REDLD                                         
+                 8:52: 5:64    ++ Finished Joint Displacement Calculation.     
+                 8:52: 5:65  ++ Processing Element Stiffness Matrix.           
+                 8:52: 5:66  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 5:66  NV1                                             -2
+                 8:52: 5:68  ++ Processing Global Stiffness Matrix.            
+                 8:52: 5:68  MBAND                                          105
+                 8:52: 5:69  NBLOCK                                           1
+                 8:52: 5:69  NEQB                                           870
+                 8:52: 5:70  NBLK                                             1
+                 8:52: 5:72    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 5:72  ++ Processing Triangular Factorization-2.         
+                 8:52: 5:73  NBLK                                             1
+                 8:52: 5:74  NBLOCK=                                          1
+                 8:52: 5:74    ++ Finished Triangular Factorization.           
+                 8:52: 5:76  ++ Calculating Joint Displacement.                
+                 8:52: 5:76  FORWARD SUBSTITUTE                                
+                 8:52: 5:77  BACK SUBSTITUTE                                   
+                 8:52: 5:78  END REDLD                                         
+                 8:52: 5:79    ++ Finished Joint Displacement Calculation.     
+                 8:52: 5:79  ++ Calculating Element Forces & Reactions.        
+                 8:52: 5:80    CHANGE INTERNAL COMMAND PROCESSED               
+                 8:52: 5:81  COMBINATION CASES=                               0
+                 8:52: 5:82  MAX CM MEMORY (KILOWORDS)                      181
+                 8:52: 5:82  AFTER SOLVER 1                                    
+                 8:52: 5:84  REOPEN AS SEQ                                    0
+                 8:52: 5:84  CHANGE                                            
+                 8:52: 5:85    CHANGE COMMAND PROCESSED                        
+                 8:52: 5:85  LOAD 3 LOADTYPE SEISM                             
+                 8:52: 5:86  BEFORE LOADPR                                     
+                 8:52: 5:87  REOPEN AS DIR                                    0
+                 8:52: 5:88  ENTER LOADPR                                      
+                 8:52: 5:89  PERFORM ANALYSIS PRIN                             
+                 8:52: 5:89  pdel iter                                        0
+                 8:52: 5:90  BEFORE SOLVER 1                                   
+                 8:52: 5:91  Start Input for Next Load Case                    
+                 8:52: 5:91  IJL CASE                                         3
+                 8:52: 5:92  LINE NO                                       1282
+                 8:52: 5:93  case no=    3 seq. no=   3 idynl= 0               
+                 8:52: 5:93  LOADEND ISLAVE                                   0
+                 8:52: 5:93  Start Input for Next Load Case                    
+                 8:52: 5:94  case no=    4 seq. no=   4 idynl= 0               
+                 8:52: 5:94  LOADEND ISLAVE                                   0
+                 8:52: 5:96  Start Input for Next Load Case                    
+                 8:52: 5:97  case no=    5 seq. no=   5 idynl= 0               
+                 8:52: 5:97  LOADEND ISLAVE                                   0
+                 8:52: 5:98  Start Input for Next Load Case                    
+                 8:52: 5:99  case no=    6 seq. no=   6 idynl= 0               
+                 8:52: 5:99  LOADEND ISLAVE                                   0
+                 8:52: 6: 0  Start Input for Next Load Case                    
+                 8:52: 6: 1  case no=    7 seq. no=   7 idynl= 0               
+                 8:52: 6: 2  LOADEND ISLAVE                                   0
+                 8:52: 6: 2  Start Input for Next Load Case                    
+                 8:52: 6: 3  case no=    8 seq. no=   8 idynl= 0               
+                 8:52: 6: 4  LOADEND ISLAVE                                   0
+                 8:52: 6: 4  NVPREV                                           2
+                 8:52: 6: 5  AMAXNON                               2.368766E+01
+                 8:52: 6: 5  IRECSIZL=                                     4000
+                 8:52: 6: 7  MTX BLOCKSIZE=                               91350
+                 8:52: 6: 7  MI=                                            870
+                 8:52: 6: 7  NORECL=                                         23
+                 8:52: 6: 8  NORECL1=                                         1
+                 8:52: 6: 9  IWORD=                                       32000
+                 8:52: 6:10  JRECSIZE=                                     4000
+                 8:52: 6:11  IWORDJ=                                      32000
+                 8:52: 6:12  IBYTE=                                           4
+                 8:52: 6:12  JOINTS=                                        164
+                 8:52: 6:14  MEMBERS=                                       298
+                 8:52: 6:14  PLATES =                                         0
+                 8:52: 6:15  SOLIDS =                                         0
+                 8:52: 6:16  NO. OF EQUATIONS=                              870
+                 8:52: 6:16  idyn=                                            0
+                 8:52: 6:17  ipd=                                             0
+                 8:52: 6:18  icablanl=                                        0
+                 8:52: 6:19  ++ Processing Element Stiffness Matrix.           
+                 8:52: 6:21  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 6:21  NV1                                             -3
+                 8:52: 6:21  ++ Processing Global Stiffness Matrix.            
+                 8:52: 6:22  MBAND                                          105
+                 8:52: 6:23  NBLOCK                                           1
+                 8:52: 6:23  NEQB                                           870
+                 8:52: 6:25  NBLK                                             1
+                 8:52: 6:26    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 6:27  ++ Processing Triangular Factorization-2.         
+                 8:52: 6:27  NBLK                                             1
+                 8:52: 6:28  NBLOCK=                                          1
+                 8:52: 6:29    ++ Finished Triangular Factorization.           
+                 8:52: 6:31  ++ Calculating Joint Displacement.                
+                 8:52: 6:31  FORWARD SUBSTITUTE                                
+                 8:52: 6:31  BACK SUBSTITUTE                                   
+                 8:52: 6:32  END REDLD                                         
+                 8:52: 6:33    ++ Finished Joint Displacement Calculation.     
+                 8:52: 6:34  ++ Processing Element Stiffness Matrix.           
+                 8:52: 6:35  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 6:35  NV1                                             -3
+                 8:52: 6:36  ++ Processing Global Stiffness Matrix.            
+                 8:52: 6:37  MBAND                                          105
+                 8:52: 6:37  NBLOCK                                           1
+                 8:52: 6:38  NEQB                                           870
+                 8:52: 6:39  NBLK                                             1
+                 8:52: 6:40    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 6:41  ++ Processing Triangular Factorization-2.         
+                 8:52: 6:41  NBLK                                             1
+                 8:52: 6:42  NBLOCK=                                          1
+                 8:52: 6:43    ++ Finished Triangular Factorization.           
+                 8:52: 6:44  ++ Calculating Joint Displacement.                
+                 8:52: 6:45  FORWARD SUBSTITUTE                                
+                 8:52: 6:45  BACK SUBSTITUTE                                   
+                 8:52: 6:46  END REDLD                                         
+                 8:52: 6:46    ++ Finished Joint Displacement Calculation.     
+                 8:52: 6:48  ++ Processing Element Stiffness Matrix.           
+                 8:52: 6:49  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 6:49  NV1                                             -3
+                 8:52: 6:49  ++ Processing Global Stiffness Matrix.            
+                 8:52: 6:49  MBAND                                          105
+                 8:52: 6:51  NBLOCK                                           1
+                 8:52: 6:52  NEQB                                           870
+                 8:52: 6:52  NBLK                                             1
+                 8:52: 6:53    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 6:55  ++ Processing Triangular Factorization-2.         
+                 8:52: 6:55  NBLK                                             1
+                 8:52: 6:56  NBLOCK=                                          1
+                 8:52: 6:56    ++ Finished Triangular Factorization.           
+                 8:52: 6:58  ++ Calculating Joint Displacement.                
+                 8:52: 6:58  FORWARD SUBSTITUTE                                
+                 8:52: 6:59  BACK SUBSTITUTE                                   
+                 8:52: 6:60  END REDLD                                         
+                 8:52: 6:60    ++ Finished Joint Displacement Calculation.     
+                 8:52: 6:62  ++ Processing Element Stiffness Matrix.           
+                 8:52: 6:63  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 6:63  NV1                                             -3
+                 8:52: 6:64  ++ Processing Global Stiffness Matrix.            
+                 8:52: 6:64  MBAND                                          105
+                 8:52: 6:65  NBLOCK                                           1
+                 8:52: 6:65  NEQB                                           870
+                 8:52: 6:66  NBLK                                             1
+                 8:52: 6:67    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 6:68  ++ Processing Triangular Factorization-2.         
+                 8:52: 6:69  NBLK                                             1
+                 8:52: 6:70  NBLOCK=                                          1
+                 8:52: 6:70    ++ Finished Triangular Factorization.           
+                 8:52: 6:71  ++ Calculating Joint Displacement.                
+                 8:52: 6:72  FORWARD SUBSTITUTE                                
+                 8:52: 6:72  BACK SUBSTITUTE                                   
+                 8:52: 6:74  END REDLD                                         
+                 8:52: 6:74    ++ Finished Joint Displacement Calculation.     
+                 8:52: 6:75  ++ Processing Element Stiffness Matrix.           
+                 8:52: 6:76  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 6:76  NV1                                             -3
+                 8:52: 6:78  ++ Processing Global Stiffness Matrix.            
+                 8:52: 6:78  MBAND                                          105
+                 8:52: 6:79  NBLOCK                                           1
+                 8:52: 6:79  NEQB                                           870
+                 8:52: 6:79  NBLK                                             1
+                 8:52: 6:81    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 6:82  ++ Processing Triangular Factorization-2.         
+                 8:52: 6:83  NBLK                                             1
+                 8:52: 6:84  NBLOCK=                                          1
+                 8:52: 6:84    ++ Finished Triangular Factorization.           
+                 8:52: 6:86  ++ Calculating Joint Displacement.                
+                 8:52: 6:86  FORWARD SUBSTITUTE                                
+                 8:52: 6:87  BACK SUBSTITUTE                                   
+                 8:52: 6:88  END REDLD                                         
+                 8:52: 6:89    ++ Finished Joint Displacement Calculation.     
+                 8:52: 6:89  ++ Processing Element Stiffness Matrix.           
+                 8:52: 6:91  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 6:91  NV1                                             -3
+                 8:52: 6:92  ++ Processing Global Stiffness Matrix.            
+                 8:52: 6:92  MBAND                                          105
+                 8:52: 6:93  NBLOCK                                           1
+                 8:52: 6:94  NEQB                                           870
+                 8:52: 6:94  NBLK                                             1
+                 8:52: 6:96    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 6:96  ++ Processing Triangular Factorization-2.         
+                 8:52: 6:96  NBLK                                             1
+                 8:52: 6:98  NBLOCK=                                          1
+                 8:52: 6:98    ++ Finished Triangular Factorization.           
+                 8:52: 7: 0  ++ Calculating Joint Displacement.                
+                 8:52: 7: 0  FORWARD SUBSTITUTE                                
+                 8:52: 7: 1  BACK SUBSTITUTE                                   
+                 8:52: 7: 2  END REDLD                                         
+                 8:52: 7: 2    ++ Finished Joint Displacement Calculation.     
+                 8:52: 7: 4  ++ Calculating Element Forces & Reactions.        
+                 8:52: 7: 5    CHANGE INTERNAL COMMAND PROCESSED               
+                 8:52: 7: 5  ipd=                                             0
+                 8:52: 7: 5  icablanl=                                        0
+                 8:52: 7: 6  ++ Processing Element Stiffness Matrix.           
+                 8:52: 7: 8  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 7: 8  NV1                                             -4
+                 8:52: 7: 8  ++ Processing Global Stiffness Matrix.            
+                 8:52: 7: 9  MBAND                                          105
+                 8:52: 7:10  NBLOCK                                           1
+                 8:52: 7:11  NEQB                                           870
+                 8:52: 7:12  NBLK                                             1
+                 8:52: 7:13    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 7:13  ++ Processing Triangular Factorization-2.         
+                 8:52: 7:14  NBLK                                             1
+                 8:52: 7:15  NBLOCK=                                          1
+                 8:52: 7:15    ++ Finished Triangular Factorization.           
+                 8:52: 7:17  ++ Calculating Joint Displacement.                
+                 8:52: 7:17  FORWARD SUBSTITUTE                                
+                 8:52: 7:18  BACK SUBSTITUTE                                   
+                 8:52: 7:19  END REDLD                                         
+                 8:52: 7:19    ++ Finished Joint Displacement Calculation.     
+                 8:52: 7:20  ++ Processing Element Stiffness Matrix.           
+                 8:52: 7:22  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 7:22  NV1                                             -4
+                 8:52: 7:23  ++ Processing Global Stiffness Matrix.            
+                 8:52: 7:23  MBAND                                          105
+                 8:52: 7:24  NBLOCK                                           1
+                 8:52: 7:25  NEQB                                           870
+                 8:52: 7:26  NBLK                                             1
+                 8:52: 7:27    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 7:28  ++ Processing Triangular Factorization-2.         
+                 8:52: 7:28  NBLK                                             1
+                 8:52: 7:29  NBLOCK=                                          1
+                 8:52: 7:30    ++ Finished Triangular Factorization.           
+                 8:52: 7:31  ++ Calculating Joint Displacement.                
+                 8:52: 7:31  FORWARD SUBSTITUTE                                
+                 8:52: 7:31  BACK SUBSTITUTE                                   
+                 8:52: 7:33  END REDLD                                         
+                 8:52: 7:33    ++ Finished Joint Displacement Calculation.     
+                 8:52: 7:35  ++ Processing Element Stiffness Matrix.           
+                 8:52: 7:36  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 7:36  NV1                                             -4
+                 8:52: 7:37  ++ Processing Global Stiffness Matrix.            
+                 8:52: 7:37  MBAND                                          105
+                 8:52: 7:38  NBLOCK                                           1
+                 8:52: 7:39  NEQB                                           870
+                 8:52: 7:39  NBLK                                             1
+                 8:52: 7:41    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 7:41  ++ Processing Triangular Factorization-2.         
+                 8:52: 7:42  NBLK                                             1
+                 8:52: 7:43  NBLOCK=                                          1
+                 8:52: 7:44    ++ Finished Triangular Factorization.           
+                 8:52: 7:45  ++ Calculating Joint Displacement.                
+                 8:52: 7:45  FORWARD SUBSTITUTE                                
+                 8:52: 7:46  BACK SUBSTITUTE                                   
+                 8:52: 7:47  END REDLD                                         
+                 8:52: 7:48    ++ Finished Joint Displacement Calculation.     
+                 8:52: 7:49  ++ Processing Element Stiffness Matrix.           
+                 8:52: 7:50  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 7:50  NV1                                             -4
+                 8:52: 7:50  ++ Processing Global Stiffness Matrix.            
+                 8:52: 7:51  MBAND                                          105
+                 8:52: 7:52  NBLOCK                                           1
+                 8:52: 7:53  NEQB                                           870
+                 8:52: 7:53  NBLK                                             1
+                 8:52: 7:55    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 7:55  ++ Processing Triangular Factorization-2.         
+                 8:52: 7:56  NBLK                                             1
+                 8:52: 7:57  NBLOCK=                                          1
+                 8:52: 7:58    ++ Finished Triangular Factorization.           
+                 8:52: 7:59  ++ Calculating Joint Displacement.                
+                 8:52: 7:59  FORWARD SUBSTITUTE                                
+                 8:52: 7:60  BACK SUBSTITUTE                                   
+                 8:52: 7:61  END REDLD                                         
+                 8:52: 7:61    ++ Finished Joint Displacement Calculation.     
+                 8:52: 7:62  ++ Processing Element Stiffness Matrix.           
+                 8:52: 7:64  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 7:64  NV1                                             -4
+                 8:52: 7:64  ++ Processing Global Stiffness Matrix.            
+                 8:52: 7:65  MBAND                                          105
+                 8:52: 7:66  NBLOCK                                           1
+                 8:52: 7:67  NEQB                                           870
+                 8:52: 7:67  NBLK                                             1
+                 8:52: 7:69    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 7:69  ++ Processing Triangular Factorization-2.         
+                 8:52: 7:69  NBLK                                             1
+                 8:52: 7:71  NBLOCK=                                          1
+                 8:52: 7:71    ++ Finished Triangular Factorization.           
+                 8:52: 7:72  ++ Calculating Joint Displacement.                
+                 8:52: 7:73  FORWARD SUBSTITUTE                                
+                 8:52: 7:74  BACK SUBSTITUTE                                   
+                 8:52: 7:74  END REDLD                                         
+                 8:52: 7:76    ++ Finished Joint Displacement Calculation.     
+                 8:52: 7:76  ++ Processing Element Stiffness Matrix.           
+                 8:52: 7:77  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 7:77  NV1                                             -4
+                 8:52: 7:78  ++ Processing Global Stiffness Matrix.            
+                 8:52: 7:79  MBAND                                          105
+                 8:52: 7:80  NBLOCK                                           1
+                 8:52: 7:81  NEQB                                           870
+                 8:52: 7:82  NBLK                                             1
+                 8:52: 7:83    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 7:83  ++ Processing Triangular Factorization-2.         
+                 8:52: 7:84  NBLK                                             1
+                 8:52: 7:85  NBLOCK=                                          1
+                 8:52: 7:85    ++ Finished Triangular Factorization.           
+                 8:52: 7:87  ++ Calculating Joint Displacement.                
+                 8:52: 7:87  FORWARD SUBSTITUTE                                
+                 8:52: 7:88  BACK SUBSTITUTE                                   
+                 8:52: 7:89  END REDLD                                         
+                 8:52: 7:90    ++ Finished Joint Displacement Calculation.     
+                 8:52: 7:90  ++ Calculating Element Forces & Reactions.        
+                 8:52: 7:92    CHANGE INTERNAL COMMAND PROCESSED               
+                 8:52: 7:92  ipd=                                             0
+                 8:52: 7:93  icablanl=                                        0
+                 8:52: 7:93  ++ Processing Element Stiffness Matrix.           
+                 8:52: 7:95  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 7:95  NV1                                             -5
+                 8:52: 7:96  ++ Processing Global Stiffness Matrix.            
+                 8:52: 7:96  MBAND                                          105
+                 8:52: 7:97  NBLOCK                                           1
+                 8:52: 7:98  NEQB                                           870
+                 8:52: 7:99  NBLK                                             1
+                 8:52: 8: 0    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 8: 1  ++ Processing Triangular Factorization-2.         
+                 8:52: 8: 1  NBLK                                             1
+                 8:52: 8: 2  NBLOCK=                                          1
+                 8:52: 8: 2    ++ Finished Triangular Factorization.           
+                 8:52: 8: 4  ++ Calculating Joint Displacement.                
+                 8:52: 8: 4  FORWARD SUBSTITUTE                                
+                 8:52: 8: 5  BACK SUBSTITUTE                                   
+                 8:52: 8: 6  END REDLD                                         
+                 8:52: 8: 7    ++ Finished Joint Displacement Calculation.     
+                 8:52: 8: 8  ++ Processing Element Stiffness Matrix.           
+                 8:52: 8: 9  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 8: 9  NV1                                             -5
+                 8:52: 8:10  ++ Processing Global Stiffness Matrix.            
+                 8:52: 8:10  MBAND                                          105
+                 8:52: 8:11  NBLOCK                                           1
+                 8:52: 8:11  NEQB                                           870
+                 8:52: 8:11  NBLK                                             1
+                 8:52: 8:14    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 8:15  ++ Processing Triangular Factorization-2.         
+                 8:52: 8:15  NBLK                                             1
+                 8:52: 8:16  NBLOCK=                                          1
+                 8:52: 8:16    ++ Finished Triangular Factorization.           
+                 8:52: 8:18  ++ Calculating Joint Displacement.                
+                 8:52: 8:19  FORWARD SUBSTITUTE                                
+                 8:52: 8:19  BACK SUBSTITUTE                                   
+                 8:52: 8:20  END REDLD                                         
+                 8:52: 8:21    ++ Finished Joint Displacement Calculation.     
+                 8:52: 8:22  ++ Calculating Element Forces & Reactions.        
+                 8:52: 8:23    CHANGE INTERNAL COMMAND PROCESSED               
+                 8:52: 8:23  ipd=                                             0
+                 8:52: 8:24  icablanl=                                        0
+                 8:52: 8:25  ++ Processing Element Stiffness Matrix.           
+                 8:52: 8:26  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 8:26  NV1                                             -6
+                 8:52: 8:27  ++ Processing Global Stiffness Matrix.            
+                 8:52: 8:27  MBAND                                          105
+                 8:52: 8:29  NBLOCK                                           1
+                 8:52: 8:29  NEQB                                           870
+                 8:52: 8:29  NBLK                                             1
+                 8:52: 8:31    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 8:32  ++ Processing Triangular Factorization-2.         
+                 8:52: 8:33  NBLK                                             1
+                 8:52: 8:33  NBLOCK=                                          1
+                 8:52: 8:34    ++ Finished Triangular Factorization.           
+                 8:52: 8:36  ++ Calculating Joint Displacement.                
+                 8:52: 8:36  FORWARD SUBSTITUTE                                
+                 8:52: 8:37  BACK SUBSTITUTE                                   
+                 8:52: 8:37  END REDLD                                         
+                 8:52: 8:38    ++ Finished Joint Displacement Calculation.     
+                 8:52: 8:39  ++ Processing Element Stiffness Matrix.           
+                 8:52: 8:41  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 8:41  NV1                                             -6
+                 8:52: 8:42  ++ Processing Global Stiffness Matrix.            
+                 8:52: 8:42  MBAND                                          105
+                 8:52: 8:43  NBLOCK                                           1
+                 8:52: 8:44  NEQB                                           870
+                 8:52: 8:44  NBLK                                             1
+                 8:52: 8:46    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 8:47  ++ Processing Triangular Factorization-2.         
+                 8:52: 8:47  NBLK                                             1
+                 8:52: 8:48  NBLOCK=                                          1
+                 8:52: 8:49    ++ Finished Triangular Factorization.           
+                 8:52: 8:51  ++ Calculating Joint Displacement.                
+                 8:52: 8:51  FORWARD SUBSTITUTE                                
+                 8:52: 8:51  BACK SUBSTITUTE                                   
+                 8:52: 8:52  END REDLD                                         
+                 8:52: 8:53    ++ Finished Joint Displacement Calculation.     
+                 8:52: 8:54  ++ Processing Element Stiffness Matrix.           
+                 8:52: 8:55  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 8:55  NV1                                             -6
+                 8:52: 8:56  ++ Processing Global Stiffness Matrix.            
+                 8:52: 8:57  MBAND                                          105
+                 8:52: 8:58  NBLOCK                                           1
+                 8:52: 8:58  NEQB                                           870
+                 8:52: 8:59  NBLK                                             1
+                 8:52: 8:60    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 8:61  ++ Processing Triangular Factorization-2.         
+                 8:52: 8:61  NBLK                                             1
+                 8:52: 8:62  NBLOCK=                                          1
+                 8:52: 8:63    ++ Finished Triangular Factorization.           
+                 8:52: 8:64  ++ Calculating Joint Displacement.                
+                 8:52: 8:64  FORWARD SUBSTITUTE                                
+                 8:52: 8:65  BACK SUBSTITUTE                                   
+                 8:52: 8:66  END REDLD                                         
+                 8:52: 8:67    ++ Finished Joint Displacement Calculation.     
+                 8:52: 8:68  ++ Processing Element Stiffness Matrix.           
+                 8:52: 8:69  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 8:69  NV1                                             -6
+                 8:52: 8:70  ++ Processing Global Stiffness Matrix.            
+                 8:52: 8:71  MBAND                                          105
+                 8:52: 8:71  NBLOCK                                           1
+                 8:52: 8:72  NEQB                                           870
+                 8:52: 8:73  NBLK                                             1
+                 8:52: 8:74    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 8:74  ++ Processing Triangular Factorization-2.         
+                 8:52: 8:74  NBLK                                             1
+                 8:52: 8:76  NBLOCK=                                          1
+                 8:52: 8:76    ++ Finished Triangular Factorization.           
+                 8:52: 8:78  ++ Calculating Joint Displacement.                
+                 8:52: 8:78  FORWARD SUBSTITUTE                                
+                 8:52: 8:79  BACK SUBSTITUTE                                   
+                 8:52: 8:80  END REDLD                                         
+                 8:52: 8:81    ++ Finished Joint Displacement Calculation.     
+                 8:52: 8:82  ++ Calculating Element Forces & Reactions.        
+                 8:52: 8:84    CHANGE INTERNAL COMMAND PROCESSED               
+                 8:52: 8:84  ipd=                                             0
+                 8:52: 8:85  icablanl=                                        0
+                 8:52: 8:86  ++ Processing Element Stiffness Matrix.           
+                 8:52: 8:86  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 8:86  NV1                                             -7
+                 8:52: 8:87  ++ Processing Global Stiffness Matrix.            
+                 8:52: 8:88  MBAND                                          105
+                 8:52: 8:89  NBLOCK                                           1
+                 8:52: 8:89  NEQB                                           870
+                 8:52: 8:91  NBLK                                             1
+                 8:52: 8:91    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 8:92  ++ Processing Triangular Factorization-2.         
+                 8:52: 8:93  NBLK                                             1
+                 8:52: 8:94  NBLOCK=                                          1
+                 8:52: 8:94    ++ Finished Triangular Factorization.           
+                 8:52: 8:96  ++ Calculating Joint Displacement.                
+                 8:52: 8:96  FORWARD SUBSTITUTE                                
+                 8:52: 8:97  BACK SUBSTITUTE                                   
+                 8:52: 8:98  END REDLD                                         
+                 8:52: 8:98    ++ Finished Joint Displacement Calculation.     
+                 8:52: 8:99  ++ Processing Element Stiffness Matrix.           
+                 8:52: 9: 1  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 9: 1  NV1                                             -7
+                 8:52: 9: 1  ++ Processing Global Stiffness Matrix.            
+                 8:52: 9: 1  MBAND                                          105
+                 8:52: 9: 3  NBLOCK                                           1
+                 8:52: 9: 3  NEQB                                           870
+                 8:52: 9: 5  NBLK                                             1
+                 8:52: 9: 5    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 9: 6  ++ Processing Triangular Factorization-2.         
+                 8:52: 9: 6  NBLK                                             1
+                 8:52: 9: 8  NBLOCK=                                          1
+                 8:52: 9: 8    ++ Finished Triangular Factorization.           
+                 8:52: 9:10  ++ Calculating Joint Displacement.                
+                 8:52: 9:10  FORWARD SUBSTITUTE                                
+                 8:52: 9:11  BACK SUBSTITUTE                                   
+                 8:52: 9:12  END REDLD                                         
+                 8:52: 9:13    ++ Finished Joint Displacement Calculation.     
+                 8:52: 9:13  ++ Processing Element Stiffness Matrix.           
+                 8:52: 9:15  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 9:15  NV1                                             -7
+                 8:52: 9:16  ++ Processing Global Stiffness Matrix.            
+                 8:52: 9:16  MBAND                                          105
+                 8:52: 9:17  NBLOCK                                           1
+                 8:52: 9:17  NEQB                                           870
+                 8:52: 9:19  NBLK                                             1
+                 8:52: 9:20    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 9:21  ++ Processing Triangular Factorization-2.         
+                 8:52: 9:21  NBLK                                             1
+                 8:52: 9:22  NBLOCK=                                          1
+                 8:52: 9:22    ++ Finished Triangular Factorization.           
+                 8:52: 9:24  ++ Calculating Joint Displacement.                
+                 8:52: 9:24  FORWARD SUBSTITUTE                                
+                 8:52: 9:25  BACK SUBSTITUTE                                   
+                 8:52: 9:25  END REDLD                                         
+                 8:52: 9:27    ++ Finished Joint Displacement Calculation.     
+                 8:52: 9:28  ++ Calculating Element Forces & Reactions.        
+                 8:52: 9:29    CHANGE INTERNAL COMMAND PROCESSED               
+                 8:52: 9:30  ipd=                                             0
+                 8:52: 9:30  icablanl=                                        0
+                 8:52: 9:31  ++ Processing Element Stiffness Matrix.           
+                 8:52: 9:32  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 9:32  NV1                                             -8
+                 8:52: 9:34  ++ Processing Global Stiffness Matrix.            
+                 8:52: 9:34  MBAND                                          105
+                 8:52: 9:35  NBLOCK                                           1
+                 8:52: 9:36  NEQB                                           870
+                 8:52: 9:37  NBLK                                             1
+                 8:52: 9:38    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 9:39  ++ Processing Triangular Factorization-2.         
+                 8:52: 9:39  NBLK                                             1
+                 8:52: 9:40  NBLOCK=                                          1
+                 8:52: 9:40    ++ Finished Triangular Factorization.           
+                 8:52: 9:42  ++ Calculating Joint Displacement.                
+                 8:52: 9:42  FORWARD SUBSTITUTE                                
+                 8:52: 9:43  BACK SUBSTITUTE                                   
+                 8:52: 9:44  END REDLD                                         
+                 8:52: 9:44    ++ Finished Joint Displacement Calculation.     
+                 8:52: 9:46  ++ Processing Element Stiffness Matrix.           
+                 8:52: 9:47  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 9:47  NV1                                             -8
+                 8:52: 9:48  ++ Processing Global Stiffness Matrix.            
+                 8:52: 9:49  MBAND                                          105
+                 8:52: 9:49  NBLOCK                                           1
+                 8:52: 9:50  NEQB                                           870
+                 8:52: 9:51  NBLK                                             1
+                 8:52: 9:52    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 9:52  ++ Processing Triangular Factorization-2.         
+                 8:52: 9:53  NBLK                                             1
+                 8:52: 9:54  NBLOCK=                                          1
+                 8:52: 9:55    ++ Finished Triangular Factorization.           
+                 8:52: 9:56  ++ Calculating Joint Displacement.                
+                 8:52: 9:56  FORWARD SUBSTITUTE                                
+                 8:52: 9:57  BACK SUBSTITUTE                                   
+                 8:52: 9:58  END REDLD                                         
+                 8:52: 9:59    ++ Finished Joint Displacement Calculation.     
+                 8:52: 9:60  ++ Processing Element Stiffness Matrix.           
+                 8:52: 9:61  BANDWIDTH FROM ELEMENTS                        105
+                 8:52: 9:61  NV1                                             -8
+                 8:52: 9:62  ++ Processing Global Stiffness Matrix.            
+                 8:52: 9:62  MBAND                                          105
+                 8:52: 9:63  NBLOCK                                           1
+                 8:52: 9:64  NEQB                                           870
+                 8:52: 9:65  NBLK                                             1
+                 8:52: 9:65    ++ Finished Processing Global Stiffness Matrix. 
+                 8:52: 9:67  ++ Processing Triangular Factorization-2.         
+                 8:52: 9:67  NBLK                                             1
+                 8:52: 9:68  NBLOCK=                                          1
+                 8:52: 9:68    ++ Finished Triangular Factorization.           
+                 8:52: 9:70  ++ Calculating Joint Displacement.                
+                 8:52: 9:70  FORWARD SUBSTITUTE                                
+                 8:52: 9:71  BACK SUBSTITUTE                                   
+                 8:52: 9:72  END REDLD                                         
+                 8:52: 9:73    ++ Finished Joint Displacement Calculation.     
+                 8:52: 9:74  ++ Calculating Element Forces & Reactions.        
+                 8:52: 9:75    CHANGE INTERNAL COMMAND PROCESSED               
+                 8:52: 9:76  COMBINATION CASES=                              32
+                 8:52: 9:76  MAX CM MEMORY (KILOWORDS)                      458
+                 8:52: 9:76  AFTER SOLVER 1                                    
+                 8:52: 9:78  REOPEN AS SEQ                                    0
+                 8:52: 9:79  DEFINE ENVELOPE                                   
+                 8:52: 9:82  PARAMETER 1                                       
+                 8:52: 9:83  STEEL TAKE OFF ALL                                
+                 8:52: 9:84  TOTALPW                              -1.084951E+14
+                 8:52: 9:84  LOAD LIST 101 TO 119                              
+                 8:52: 9:84  CHECK CODE MEMB 1 TO                              
+                 8:52: 9:85  ENTERING SECTNM110 IQ=                         298
+                 8:52: 9:86               NSEC=                              11
+                 8:52: 9:87             ISECTN=                               0
+                 8:52: 9:92  SECTNM110 DO 925                                  
+                 8:52: 9:94  SECTNM110 DO 932                                  
+                 8:52:10: 9  Steel/Alum/Timber Design                        42
+                 8:52:11:88    ++ Finished Design ...                          
+                 8:52:11:88  Steel/Timber Design exit                          
+                 8:52:11:89  FINISH                                            
+                 8:52:11:90  All Commands FINISHed                             
+                 8:52:11:90  DATASAVE for SPRO GUI                             
+                 8:52:11:91  ++ Creating Displacement File (DSP)...            
+                 8:52:11:95  ++ Creating Reaction File (REA)...                
+                 8:52:11:95  ++ Creating Section Force File (BMD)...           
+                 8:52:12: 8  ++ Creating Section Displace File (SEC)...        
+                 8:52:12: 8  ENTERING ENVLP1 ITYP1=                          -5
+                 8:52:12:10  SECT DISPLACE                                     
+                 8:52:12:24  ++ Creating Section Displace File (SCN)...        
+                 8:52:12:36  ++ Creating Design information File (DGN)...      
+                 8:52:12:36  ALLOCATED CM MEMORY (KILOWORDS)             100000
+                 8:52:12:37  MAX CM MEMORY (KILOWORDS)                      587
+                 8:52:12:37  DBS LONG SEC NAME                                 

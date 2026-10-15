@@ -1,0 +1,36 @@
+PEB Designer — how to test on your PC
+=====================================
+
+This is a Windows desktop app for PEB geometry / STAAD .std interchange.
+Results are for testing only — not validated for construction design.
+
+REQUIREMENTS
+- Windows 10 or 11 (64-bit)
+- No Python install needed
+
+HOW TO RUN
+1. Unzip the folder (keep all files together — do not move only the .exe).
+2. Open the PEBDesigner folder.
+3. Double-click PEBDesigner.exe
+
+WHAT TO TRY
+1. Pre-built templates → pick one → Load + Generate
+2. Check 2D Preview and 3D Model tabs
+3. File → Export STAAD.Pro (.std) and open in STAAD.Pro (if you have it)
+4. Import STD to inspect a .std file and its matching .ANL (keep both together)
+5. Model audit shows native failures, unchecked members and suspect combinations
+6. Member inspector shows native materials, releases, dimensions and design parameters
+7. Choose a 2D Z station to view a slice of an imported reference
+8. For generated models, Structural > STAAD analysis selects linear or P-Delta
+   with repeat loads. The app solver remains first-order 2D; re-run exports in STAAD.
+
+IF WINDOWS BLOCKS THE APP
+- Click More info → Run anyway
+- Or right-click → Properties → Unblock (if shown)
+
+IF 3D VIEW IS BLANK
+- Update your graphics driver
+- Try again after Generate
+
+FEEDBACK
+Please note: OS version, what you tried, and any error message / screenshot.

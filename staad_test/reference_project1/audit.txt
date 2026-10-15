@@ -1,0 +1,99 @@
+STAAD reference audit
+Source: without optimization\Project 1.STD
+Native input retained. Imported results are not recalculated by the app.
+Sidebar controls describe generated models; changing them starts a generated model, not a resized reference.
+
+164 nodes | 298 members | 38 supports
+8 primary loads | 32 combinations
+Sections: {'TAPERED': 154, 'PRIS': 60, 'TABLE': 84}
+Materials: {'STEEL': 298}
+Released members: 91 | Tension-only: 60
+Matching ANL: without optimization\Project 1.ANL
+PASS: 171 | FAIL: 64 | No result: 63
+Worst: member 154, ratio 6.995
+Failed members: 3, 12, 24, 25, 39, 40, 54, 55, 69, 70, 84, 85, 99, 100, 114, 115, 129, 130, 143, 147, 154, 155, 156, 157, 158, 159, 160, 161, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211
+
+Review findings:
+- Tension-only members are combined using LOAD COMB. Superposition does not re-evaluate active braces under simultaneous loads; engineer review and REPEAT LOAD cases are required.
+- No PDELTA command found. Review second-order requirements and the ANL amplification warnings.
+- Combination 118 (0.9 DL + 1.5ELX+): case 1 factor 11.5 is unusually large. Verify against the intended combination; original value is preserved.
+- Load 3 'DL' is labelled seismic, although its title suggests dead.
+- Load 4 'LL' is labelled seismic, although its title suggests live.
+- Load 5 'WL (0+CPI)' is labelled seismic, although its title suggests wind.
+- Load 6 'WL (0-CPI)' is labelled seismic, although its title suggests wind.
+- Load 7 'WL (90+CPI)' is labelled seismic, although its title suggests wind.
+- Load 8 'WL (90-CPI)' is labelled seismic, although its title suggests wind.
+- 63 members are outside CHECK CODE: 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 292, 297, 298. These are unchecked, not passing.
+- No native DFF deflection check is defined. Serviceability envelopes alone do not check deflection limits.
+- Native load diagrams are not drawn in the app. Explicit global member/joint forces are parsed; local-axis, selfweight and generated seismic loads remain native. View complete loading in STAAD.Pro; the original commands are retained in STAAD output.
+- STAAD output: ***WARNING: THE VALUE OF MOMENT AMPLIFICATION FACTORS KY OR KZ IS GREATER THAN 1.4 FOR MEMBER # 18 FOR LOADCASE- 111. SECOND-ORDER ELASTIC ANALYSIS MUST BE PERFORMED AS PER SECTION 4.4.2 of IS800-2007. ALSO, ENSURE THAT THE TYPE OF COMBINATION USED IS REPEAT LOAD OR REFERENCE LOAD INSTEAD OF THE LOAD COMBINATION SYNTAX EXCEPT FOR RESPONSE SPECTRUM LOAD CASES.
+- STAAD output: ***WARNING: THE VALUE OF MOMENT AMPLIFICATION FACTORS KY OR KZ IS GREATER THAN 1.4 FOR MEMBER # 19 FOR LOADCASE- 111. SECOND-ORDER ELASTIC ANALYSIS MUST BE PERFORMED AS PER SECTION 4.4.2 of IS800-2007. ALSO, ENSURE THAT THE TYPE OF COMBINATION USED IS REPEAT LOAD OR REFERENCE LOAD INSTEAD OF THE LOAD COMBINATION SYNTAX EXCEPT FOR RESPONSE SPECTRUM LOAD CASES.
+
+Native load cases (declared type):
+1: EL X+ [seismic]
+2: EL Z+ [seismic]
+3: DL [seismic]
+4: LL [seismic]
+5: WL (0+CPI) [seismic]
+6: WL (0-CPI) [seismic]
+7: WL (90+CPI) [seismic]
+8: WL (90-CPI) [seismic]
+
+Native combinations (case: factor):
+101: 1.5 DL + 1.5 LL | {'3': 1.5, '4': 1.5} | Strength
+102: 1.2DL + 1.2 LL +1.2 WL (0+CPI) | {'3': 1.2, '4': 1.2, '5': 1.2} | Strength
+103: 1.2DL + 1.2LL + 1.2WL (0-CPI) | {'3': 1.2, '4': 1.2, '6': 1.2} | Strength
+104: 1.2DL + 1.2LL + 1.2WL (90+CPI) | {'3': 1.2, '4': 1.2, '7': 1.2} | Strength
+105: 1.2DL + 1.2LL + 1.2WL (90-CPI) | {'3': 1.2, '4': 1.2, '8': 1.2} | Strength
+106: 1.2DL + 1.2LL + 1.2ELX+ | {'3': 1.2, '4': 1.2, '1': 1.2} | Strength
+107: 1.2DL + 1.2LL + 1.2ELZ+ | {'3': 1.2, '4': 1.2, '2': 1.2} | Strength
+108: 1.5 DL + 1.5 WL (0+CPI) | {'3': 1.5, '5': 1.5} | Strength
+109: 1.5 DL + 1.5 WL (0-CPI) | {'3': 1.5, '6': 1.5} | Strength
+110: 1.5 DL + 1.5 WL (90+CPI) | {'3': 1.5, '7': 1.5} | Strength
+111: 1.5 DL + 1.5 WL (90-CPI) | {'3': 1.5, '8': 1.5} | Strength
+112: 1.5 DL + 1.5 ELX+ | {'3': 1.5, '1': 1.5} | Strength
+113: 1.5 DL + 1.5 ELZ+ | {'3': 1.5, '2': 1.5} | Strength
+114: 0.9 DL + 1.5 WL (0+CPI) | {'3': 0.9, '5': 1.5} | Strength
+115: 0.9 DL + 1.5 WL (0-CPI) | {'3': 0.9, '6': 1.5} | Strength
+116: 0.9 DL + 1.5 WL (90+CPI) | {'3': 0.9, '7': 1.5} | Strength
+117: 0.9 DL + 1.5 WL (90-CPI) | {'3': 0.9, '8': 1.5} | Strength
+118: 0.9 DL + 1.5ELX+ | {'3': 0.9, '1': 11.5} | Strength
+119: 0.9 DL + 1.5ELZ+ | {'3': 0.9, '2': 1.5} | Strength
+201: SERVICE 1 DL + 1 LL | {'3': 1.0, '4': 1.0} | Serviceability
+202: SERVICE 1 DL + 0.8 LL + 0.8EL(X) | {'3': 1.0, '4': 0.8, '1': 0.8} | Serviceability
+203: SERVICE 1 DL + 0.8 LL + 0.8EL(Z) | {'3': 1.0, '4': 0.8, '2': 0.8} | Serviceability
+204: SERVICE 1 DL + 0.8 LL + 0.8WL(0+CPI) | {'3': 1.0, '4': 0.8, '5': 0.8} | Serviceability
+205: SERVICE 1 DL + 0.8 LL + 0.8WL(0-CPI) | {'3': 1.0, '4': 0.8, '6': 0.8} | Serviceability
+206: SERVICE 1 DL + 0.8 LL + 0.8WL(90+CPI) | {'3': 1.0, '4': 0.8, '7': 0.8} | Serviceability
+207: SERVICE 1 DL + 0.8 LL + 0.8WL(90-CPI) | {'3': 1.0, '4': 0.8, '8': 0.8} | Serviceability
+208: SERVICE 1 DL + 1EL(X) | {'3': 1.0, '1': 1.0} | Serviceability
+209: SERVICE 1 DL + 1EL(Z) | {'2': 1.0, '3': 1.0} | Serviceability
+210: SERVICE 1 DL + 1WL(0+CPI) | {'3': 1.0, '5': 1.0} | Serviceability
+211: SERVICE 1 DL + 1WL(0-CPI) | {'3': 1.0, '6': 1.0} | Serviceability
+212: SERVICE 1 DL + 1WL(90+CPI) | {'3': 1.0, '7': 1.0} | Serviceability
+213: SERVICE 1 DL + 1WL(90-CPI) | {'3': 1.0, '8': 1.0} | Serviceability
+
+Load definitions:
+DEFINE 1893 LOAD
+ZONE 0.16 RF 4 I 1.2 SS 2 ST 2 DM 0.05
+SELFWEIGHT 1.5
+MEMBER WEIGHT
+23 TO 28 38 TO 43 53 TO 58 68 TO 73 83 TO 88 98 TO 103 113 TO 118 128 TO 132 133 UNI 2.171
+3 4 10 TO 13 143 TO 148 290 291 293 TO 296 UNI 1.086
+169 TO 184 194 TO 209 UNI 1.41
+162 163 185 186 192 193 210 211 UNI 0.705
+164 TO 168 187 TO 191 UNI 0.98
+162 163 185 186 192 193 210 211 UNI 0.49
+JOINT WEIGHT
+22 23 31 32 40 41 49 50 58 59 67 68 76 77 85 86 WEIGHT 1.344
+3 4 94 95 WEIGHT 0.672
+
+Analysis commands:
+PERFORM ANALYSIS
+CHANGE
+PERFORM ANALYSIS
+CHANGE
+PERFORM ANALYSIS PRINT ALL
+
+Bentley explanation of repeat loads:
+https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0113645
